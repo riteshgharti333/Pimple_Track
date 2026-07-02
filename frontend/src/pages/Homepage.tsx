@@ -202,8 +202,8 @@ const Homepage = () => {
   return (
     <div className="min-h-screen bg-linear-to-b from-blue-50 to-white pb-20">
       {/* Header Section */}
-      <div className="bg-linear-to-r from-blue-600 to-blue-700 text-white px-6 py-8">
-        <div className="max-w-md mx-auto">
+      <div className="bg-linear-to-r bg-blue-600 text-white px-6 py-8">
+        <div className="">
           <div className="flex justify-between items-start mb-2">
             <h1 className="text-2xl font-bold mb-1">Today's Status</h1>
             <button
@@ -273,10 +273,10 @@ const Homepage = () => {
       {/* Main Content */}
       <div className="max-w-md mx-auto px-6 -mt-6">
         {/* Quick Action Button */}
-        <div className="mb-6">
+        <div className="mb-6 ">
           <Link
             to="/add"
-            className="block w-full bg-linear-to-r from-blue-600 to-blue-700 text-white rounded-2xl p-5 flex items-center justify-center shadow-lg hover:shadow-xl transition-shadow active:scale-95"
+            className="block w-full bg-linear-to-r  bg-white rounded-2xl p-5 flex items-center justify-center shadow-lg hover:shadow-xl transition-shadow active:scale-95 text-blue-600"
           >
             <FaPlus className="mr-3" size={22} />
             <span className="text-xl font-bold">Add New Pimple</span>

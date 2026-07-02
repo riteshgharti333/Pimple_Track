@@ -12,7 +12,7 @@ const BottomBar = () => {
   ];
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 z-50 bg-white border-t border-blue-100">
+    <div className="fixed bottom-0 left-0 right-0 z-50 bg-white border-t border-blue-100 max-w-md mx-auto">
       <div className="max-w-md mx-auto">
         <div className="flex h-14">
           {navItems.map((item) => {

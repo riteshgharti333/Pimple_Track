@@ -318,7 +318,7 @@ const History = () => {
   return (
     <div className="min-h-screen bg-gray-50 pb-20">
       {/* Header */}
-      <div className="bg-linear-to-r from-blue-600 to-blue-700 text-white px-6 py-6">
+      <div className="bg-linear-to-r bg-blue-600 text-white px-6 py-6">
         <div className="max-w-md mx-auto">
           <div className="flex justify-between items-center mb-2">
             <h1 className="text-2xl font-bold">Pimple History</h1>

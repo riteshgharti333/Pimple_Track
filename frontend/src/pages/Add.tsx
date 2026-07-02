@@ -200,7 +200,7 @@ const Add: React.FC = () => {
         duration: 3000,
       });
 
-      navigate("/history")
+      navigate("/history");
 
       // Reset form
       setFormData({
@@ -251,7 +251,7 @@ const Add: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-50 pb-20">
       {/* Header */}
-      <div className="bg-linear-to-r from-blue-600 to-blue-700 text-white px-6 py-6">
+      <div className="bg-linear-to-r bg-blue-600 text-white px-6 py-6">
         <div className="max-w-md mx-auto">
           <h1 className="text-2xl font-bold mb-2">Log New Pimple</h1>
           <p className="text-blue-100 text-sm">

@@ -26,7 +26,7 @@ const AppLayout = () => {
 
 function App() {
   return (
-    <div className="app">
+    <div className="app max-w-md mx-auto shadow-2xl">
       <Routes>
         {/* Login route (no layout) */}
         <Route path="/login" element={<Login />} />
