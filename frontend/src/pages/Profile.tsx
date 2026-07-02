@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { FaEnvelope, FaSignOutAlt } from "react-icons/fa";
+import { FaEnvelope, FaSignOutAlt, FaSpinner } from "react-icons/fa";
 import { toast } from "sonner";
 
 const API_URL = `${import.meta.env.VITE_URL}/auth/profile`;
@@ -68,13 +68,11 @@ const Profile: React.FC = () => {
 
   if (isLoading) {
     return (
-      <div className="min-h-screen flex items-center justify-center text-gray-500">
-        Loading profile...
+      <div className="min-h-screen flex bg-white items-center justify-center text-gray-500">
+        <FaSpinner size={35} className="animate-spin text-blue-600 text-2xl" />
       </div>
     );
   }
-
-  console.log(userData);
   return (
     <div className="min-h-screen bg-gray-50 pb-20">
       {/* Header */}

@@ -4,7 +4,11 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background: #4584b2;
+  background: linear-gradient(315deg, #4584b2, #0037cc);
 }
+
+
 
 button {
   cursor: pointer;
